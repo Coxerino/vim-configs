@@ -5,6 +5,7 @@ filetype plugin on
 set relativenumber number
 set nocompatible
 set hidden
+set mouse=a
 
 call plug#begin()
 Plug 'junegunn/fzf.vim'
