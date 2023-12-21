@@ -6,7 +6,7 @@ apt install git -y
 
 apt install ripgrep -y
 
-Plugins in Autoload laden 
+Plug-Plugin-Manager in Autoload laden 
 
 wget -P /usr/share/vim/vim90/autoload/ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
