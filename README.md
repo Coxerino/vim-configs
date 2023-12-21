@@ -1,7 +1,9 @@
 Zusätzliche installieren für FZF:
 
 apt install fzf -y
+
 apt install git -y
+
 apt install ripgrep -y
 
 Plugins in Autoload laden 
@@ -14,4 +16,5 @@ Fuzzy config erstellen:
 echo "if type rg &> /dev/null/; then; export FZF_DEFAULT_COMMAND='rg --files'; export FZF_DEFAULT_OPTS='-m'; fi" > /etc/profile.d/fzf.sh
 
 In VIM:
+
 :PlugInstall
