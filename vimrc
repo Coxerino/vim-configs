@@ -1,5 +1,3 @@
-autocmd InsertEnter * set cursorline
-autocmd InsertLeave * set nocursorline
 set nocp
 filetype plugin on
 set relativenumber number
