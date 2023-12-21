@@ -7,7 +7,7 @@ set nocompatible
 set hidden
 
 call plug#begin()
-Plug 'junegunn/fzf.vim
+Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'vim-airline/vim-airline'
 call plug#end()
