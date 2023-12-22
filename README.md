@@ -10,18 +10,7 @@ Plug-Plugin-Manager in Autoload laden
 
 wget -P /usr/share/vim/vim90/autoload/ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-
-Fuzzy config erstellen:
-
-echo "if type rg &> /dev/null
-
-  then 
-  
-    export FZF_DEFAULT_COMMAND='rg --files'
-    
-    export FZF_DEFAULT_OPTS='-m' 
-    
-fi
+Fuzzy config fzf.sh in /etc/profile.de/ erstellen
 
 In VIM:
 
