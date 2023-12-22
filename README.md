@@ -14,9 +14,13 @@ wget -P /usr/share/vim/vim90/autoload/ https://raw.githubusercontent.com/junegun
 Fuzzy config erstellen:
 
 echo "if type rg &> /dev/null
+
   then 
+  
     export FZF_DEFAULT_COMMAND='rg --files'
+    
     export FZF_DEFAULT_OPTS='-m' 
+    
 fi
 
 In VIM:
