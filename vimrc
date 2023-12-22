@@ -14,3 +14,4 @@ call plug#end()
 
 set background=dark    
 let g:conoline_auto_enable = 1
+nmap <silent> <F2> :exec &nu==&rnu? "se nu!" : "se rnu!"<CR>
