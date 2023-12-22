@@ -10,6 +10,6 @@
 
 - wget -P /usr/share/vim/vim90/autoload/ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
--Fuzzy config fzf.sh in /etc/profile.de/ erstellen
+- Fuzzy config fzf.sh in /etc/profile.de/ erstellen
 
 - In VIM: :PlugInstall
