@@ -5,8 +5,6 @@ set nocompatible
 set hidden
 set mouse=a
 
-### TEST
-
 call plug#begin()
 Plug 'miyakogi/conoline.vim'
 Plug 'junegunn/fzf.vim'
